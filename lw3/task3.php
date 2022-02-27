@@ -24,13 +24,13 @@ function getPasswordStrength($pass)
         }
         $lowerCase += 1;
     }
-    $strength += $digits * 4 
+    $strength += $digits * 4; 
     $strength += $upperCase ? ($len-$upperCase) * 2 : 0; 
     $strength += $lowerCase ? ($len-$lowerCase) * 2 : 0;
     $strength -= $digits == $len ? $len : 0;
     $strength -= ($upperCase + $lowerCase) == $len ? $len : 0;
     $symbolsCount = array_count_values(str_split($pass));
-    foreach ($symbols as $count) {
+    foreach ($symbolsCount as $count) {
         if ($count > 1)
         {
             $strength -= $count;
@@ -45,5 +45,5 @@ if (isset($_GET['password']) && ($_GET['password'] !== ''))
     $strength = getPasswordStrength($pass);    
 }
 else {
-    echo 'Enter password...'
+    echo 'Enter password...';
 }
