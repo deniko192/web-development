@@ -14,11 +14,13 @@ if ($email)
     if (file_exists($fName)) 
     {
         $file = file($dir . $email . '.txt');
-        foreach ($file as $line) {
+        foreach ($file as $line) 
+        {
             echo $line;
         }   
     }
-    else {
+    else 
+    {
         echo 'File not found';
     }
 }

@@ -10,7 +10,8 @@ function getGetParameter(string $name): ?string
 function arrToStr(array $arr):string
 {
     $str = '';
-    foreach ($arr as $key => $value) {
+    foreach ($arr as $key => $value) 
+    {
         $str = $str . $key . ': ' . $value . PHP_EOL; 
     }
     return $str;
@@ -27,7 +28,8 @@ $email = getGetParameter('email');
 if ($email)
 {
     $data = array();
-    foreach ($params as $paramId => $value) {
+    foreach ($params as $paramId => $value) 
+    {
         $data[$value] = getGetParameter($paramId) ?? '';
     }
     echo 'QueryData: ' . PHP_EOL;
@@ -41,12 +43,15 @@ if ($email)
         echo 'FileData: ' . PHP_EOL;
         print_r($lines);
         $user = array();
-        foreach ($lines as $line) {
+        foreach ($lines as $line)
+        {
             $value = explode(": ", $line, 2);
-            if ($data[$value[0]]) {
+            if ($data[$value[0]])
+            {
                 $user[$value[0]] = trim($data[$value[0]]);
             }
-            else {
+            else
+            {
                 $user[$value[0]] = trim($value[1]);
             }
         }
