@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+body > * 
+{
+    margin-left: 40px;
+}
+
+.header 
+{
+    padding: 20px 0;
+}
+
+.header__logo 
+{
+    font: 700 30.84px/1.22 Montserrat;
+}
+
+.header__logo span {
+    color: #E71096B2;
+}
+
+.nav 
+{
+    padding: 20px 0;
+}
+
+.nav__item 
+{
+    font: 500 16px/1.25 Montserrat;
+    margin-bottom: 10px;
+}
+
+.btn 
+{
+    background-color: #05090C;
+    color: #fff;
+    font: 600 16px/16.46px Montserrat;
+    border-radius: 4.59px;
+    cursor: pointer;
+    padding: 19px 0;
+    text-align: center;
+}
+
+.nav__btn 
+{
+    width: 247px;
+}
+
+.content > * 
+{
+    margin-bottom: 10px;
+}
+
+.content__title 
+{
+    font: 600 100px/1.2235 Montserrat;
+}
+
+.content__title span
+{
+    color: #E71096B2;
+}
+
+.content__description 
+{
+    width: 545px;
+    font: 400 26px/31.2px Roboto Condensed;       
+}
+
+.content__btn 
+{
+    width: 332px;
+}
