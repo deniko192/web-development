@@ -1,24 +1,12 @@
-body {
-    margin: 0;
-}
-
-body > * 
-{
-    margin-left: 40px;
-}
-
 .header 
 {
     padding: 20px 0;
 }
 
-.header__logo 
+.logo 
 {
     font: 700 30.84px/1.22 Montserrat;
-}
-
-.header__logo span {
-    color: #E71096B2;
+    letter-spacing: -0.045em;
 }
 
 .nav 
@@ -55,7 +43,7 @@ body > *
 
 .content__title 
 {
-    font: 600 100px/1.2235 Montserrat;
+    font: 600 100px/1.2 Montserrat;
 }
 
 .content__title span
@@ -72,4 +60,106 @@ body > *
 .content__btn 
 {
     width: 332px;
+}
+
+.content__forwhom_item_text 
+{
+    font: 400 22px/26.4px Roboto Condensed;
+    width: 303px;
+}
+
+.forwhom 
+{
+    display: flex;
+    margin: 0;
+    background-color: #000;
+}
+
+.forwhom__item
+{
+    width: 303px;   
+}
+
+.forwhom__item:nth-child(2)
+{
+    width: 337px;
+}
+
+.forwhom__item img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.forwhom__item-text 
+{
+    text-align: center;
+    font: 400 22px/26.4px Roboto Condensed;
+    color: #fff;
+}
+
+.main__item_text-title
+{
+    font: 500 48px/1.26 Montserrat;
+}
+
+.main__item_text-description
+{
+    font: 400 18px/1.35 Roboto Condensed;
+    width: 574px;
+}
+
+.opportunities__title
+{
+    font: 500 48px/59px Montserrat;
+}
+
+.opportunities__title span
+{
+    color: #E71096B2;
+}
+
+.opportunities__list-item
+{
+    width: 358px;
+    height: 190px;
+    background-color: #000;
+    border-radius: 7.35723px;
+    margin-bottom: 10px;
+}
+
+.opportunities__list-item img 
+{
+    display: block;
+    padding-bottom: 20.87px;
+    padding-top: 32.36px;
+    padding-left: 40.15px;
+    padding: 32.36px 0 20.87px 40.15px;
+}
+
+.opportunities__list_item-text
+{
+    font: 400 18px/21px Roboto Condensed;
+    color: #fff;
+    padding-left: 39px;
+    padding-right: 48.98px;
+}
+
+.footer
+{
+    height: 108px;
+    background-color: #000;
+    margin: 0;
+}
+
+.footer__title
+{
+    text-align: center;
+    padding-top: 35px;
+    color: #fff;
+}
+
+.footer__title span
+{
+    color: #E71096B2;
 }
