@@ -3,37 +3,37 @@
     padding: 20px 0;
 }
 
-.logo 
-{
-    font: 700 30.84px/1.22 Montserrat;
-    letter-spacing: -0.045em;
-}
-
-.nav 
+.header__nav 
 {
     padding: 20px 0;
+    list-style: none;
 }
 
-.nav__item 
+.header__nav-item 
 {
     font: 500 16px/1.25 Montserrat;
     margin-bottom: 10px;
 }
 
-.btn 
+.header__nav-button  
+{
+    width: 247px;
+}
+
+.button 
 {
     background-color: #05090C;
     color: #fff;
-    font: 600 16px/16.46px Montserrat;
+    font: 600 16px/1.03 Montserrat;
     border-radius: 4.59px;
     cursor: pointer;
     padding: 19px 0;
     text-align: center;
 }
 
-.nav__btn 
+.text_purple
 {
-    width: 247px;
+    color: #E71096B2;
 }
 
 .content > * 
@@ -41,69 +41,58 @@
     margin-bottom: 10px;
 }
 
-.content__title 
+.top__title 
 {
     font: 600 100px/1.2 Montserrat;
 }
 
-.content__title span
-{
-    color: #E71096B2;
-}
-
-.content__description 
+.top__description 
 {
     width: 545px;
-    font: 400 26px/31.2px Roboto Condensed;       
+    font: 400 26px/1.2 Roboto Condensed;       
 }
 
-.content__btn 
+.top__button 
 {
     width: 332px;
 }
 
-.content__forwhom_item_text 
-{
-    font: 400 22px/26.4px Roboto Condensed;
-    width: 303px;
-}
-
-.forwhom 
+.features 
 {
     display: flex;
     margin: 0;
     background-color: #000;
 }
 
-.forwhom__item
+.features__item
 {
     width: 303px;   
 }
 
-.forwhom__item:nth-child(2)
+.features__item:nth-child(2)
 {
     width: 337px;
 }
 
-.forwhom__item img
-{
-    display: block;
-    margin: 0 auto;
-}
-
-.forwhom__item-text 
+.features__text 
 {
     text-align: center;
     font: 400 22px/26.4px Roboto Condensed;
     color: #fff;
 }
 
-.main__item_text-title
+.features__img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.main-content__item_text-title
 {
     font: 500 48px/1.26 Montserrat;
 }
 
-.main__item_text-description
+.main-content__item_text-description
 {
     font: 400 18px/1.35 Roboto Condensed;
     width: 574px;
@@ -114,27 +103,24 @@
     font: 500 48px/59px Montserrat;
 }
 
-.opportunities__title span
+.opportunities__list
 {
-    color: #E71096B2;
+    list-style: none;
+}
+
+.opportunities__list__img
+{
+    display: block;
+    padding: 32.36px 0 20.87px 40.15px;
 }
 
 .opportunities__list-item
 {
     width: 358px;
-    height: 190px;
     background-color: #000;
     border-radius: 7.35723px;
     margin-bottom: 10px;
-}
-
-.opportunities__list-item img 
-{
-    display: block;
-    padding-bottom: 20.87px;
-    padding-top: 32.36px;
-    padding-left: 40.15px;
-    padding: 32.36px 0 20.87px 40.15px;
+    padding-bottom: 37.12px;
 }
 
 .opportunities__list_item-text
@@ -147,19 +133,7 @@
 
 .footer
 {
-    height: 108px;
     background-color: #000;
     margin: 0;
-}
-
-.footer__title
-{
-    text-align: center;
-    padding-top: 35px;
-    color: #fff;
-}
-
-.footer__title span
-{
-    color: #E71096B2;
+    padding: 35px;
 }
