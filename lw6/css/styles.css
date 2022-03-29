@@ -1,0 +1,255 @@
+body 
+{
+    margin: 0;
+    overflow: hidden;
+}
+
+.header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px 43px 120px;
+}
+
+.header__logo
+{   
+    align-self: flex-start;
+    justify-self: start;    
+}
+
+.header__nav 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-item 
+{
+    font: 500 16px/1.25 Montserrat;
+    margin-right: 87px;
+}
+
+.header__nav-item:nth-child(3)
+{
+    margin-right: 99px;
+}
+
+.header__nav-button  
+{
+    width: 247px;
+    margin-right: 0;
+}
+
+.button 
+{
+    background-color: #05090C;
+    color: #fff;
+    font: 600 16px/1.03 Montserrat;
+    border-radius: 4.59px;
+    cursor: pointer;
+    padding: 19px 0;
+    text-align: center;
+}
+
+.text_purple
+{
+    color: #e71096B2;
+}
+
+.top
+{
+    display: flex;
+    justify-content: center;
+}
+
+.top__content
+{
+    max-width: 745px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 180px 48px 0 0;
+}
+
+.top__title 
+{
+    font: 600 100px/1.2 Montserrat;
+    margin: 0;
+}
+
+.top__description 
+{
+    font: 400 26px/1.2 Roboto Condensed;       
+    margin-top: 22px;
+    max-width: 545px;
+}
+
+.top__button 
+{
+    width: 332px;
+    margin-top: 46px;
+}
+
+.top__image
+{
+    padding-top: 30.3px;
+    padding-left: 29.5px;
+    padding: 30.3px 25.4px 64.8px 29.5px;
+}
+
+.features 
+{
+    background-color: #000;
+    padding: 111px 0 154px;
+}
+
+.features__content
+{
+    display: flex;
+    max-width: 1138px;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.features__item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 337px;
+}
+
+.features__item:first-child
+{
+    max-width: 286px;
+}
+
+.features__item:nth-child(2)
+{
+    margin-left: 115px;
+}
+
+.features__item:nth-child(3)
+{
+    margin-left: 108px;
+}
+
+.features__text 
+{
+    text-align: center;
+    font: 400 22px/26.4px Roboto Condensed;
+    color: #fff;
+}
+
+.features__img
+{
+    margin-bottom: 20px;
+}
+
+.main-content
+{
+    margin-top: 72px;
+}
+
+.main-content__item
+{
+    max-width: 1136px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.main-content__item_text
+{
+    margin-top: 24px;
+}
+
+.main-content__item:last-child
+{
+    margin-top: 42px;
+}
+
+.main-content__item:last-child .main-content__item_text
+{
+    margin-top: 0;
+}
+
+.main-content__item_text-title
+{
+    font: 500 48px/1.26 Montserrat;
+    margin: 85px 0 0 0;
+}
+
+
+.main-content__item_text-description
+{
+    font: 400 18px/1.35 Roboto Condensed;
+    max-width: 574px;
+    margin-top: 26px;
+}
+
+.main-content__img
+{
+    margin-left: -27px;
+}
+
+.opportunities
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.opportunities__title
+{
+    font: 500 48px/59px Montserrat;
+    margin-bottom: 60px;
+}
+
+.opportunities__list
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1135px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.opportunities__list__img
+{
+    display: block;
+    padding: 32.36px 0 20.87px 40.15px;
+}
+
+.opportunities__list-item
+{
+    max-width: 358px;
+    background-color: #000;
+    border-radius: 7.3px;
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+}
+
+.opportunities__list_item-text
+{
+    font: 400 18px/21px Roboto Condensed;
+    color: #fff;
+    padding-left: 39px;
+    padding-right: 33px;
+    text-align: initial;
+}
+
+.footer
+{
+    background-color: #000;
+    margin-top: 260px;
+    padding: 35px 0 36px;
+    text-align: center;
+}
