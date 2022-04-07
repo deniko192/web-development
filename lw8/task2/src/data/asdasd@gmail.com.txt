@@ -1,0 +1,3 @@
+Email: asdasd@gmail.com
+userName: asdasd
+activity: Маркетолог
